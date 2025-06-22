@@ -1,0 +1,79 @@
+<<<<<<< HEAD
+---
+import "./src/styles/global.css";
+const {
+  title = "Freelanzer — Plataforma para freelancers LATAM",
+  description = "Genera contratos con IA, gestiona pagos e impuestos y trabaja como freelancer de forma profesional.",
+  ogImage = "https://freelanzer.app/images/Freelanzer.png",
+  ogUrl = "https://freelanzer.app",
+} = Astro.props;
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Meta tags básicos -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={ogUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Freelanzer" />
+    <meta property="og:locale" content="es_LA" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={ogUrl} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:site" content="@freelanzer" />
+    <meta name="twitter:creator" content="@freelanzer" />
+
+    <!-- Meta tags adicionales para mejor SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Freelanzer" />
+    <meta
+      name="keywords"
+      content="freelancer, contratos, IA, pagos, impuestos, LATAM, plataforma"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href={ogUrl} />
+  </head>
+  <body class="min-h-screen bg-[#0D0D0D] text-white font-rubik relative">
+    <slot />
+  </body>
+</html>
+=======
+---
+import "./src/styles/global.css";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Freelanzer</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+>>>>>>> a28139a9bf635333ab452c96d031eb4fde075214

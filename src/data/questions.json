@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es Freelanzer?",
+    "answer": "Freelanzer es una plataforma que te ayuda a gestionar contratos, pagos y obligaciones fiscales, todo en un solo lugar. Próximamente incluirá funcionalidades avanzadas de facturación."
+  },
+  {
+    "id": 2,
+    "question": "¿Qué puedo hacer con la plataforma?",
+    "answer": "Puedes generar contratos y cotizaciones con IA, llevar control de ingresos y gastos. Próximamente podrás emitir facturas con validez fiscal y conectarte directamente con el SAT."
+  },
+  {
+    "id": 3,
+    "question": "¿Freelanzer funciona en todos los países de LATAM?",
+    "answer": "Actualmente está optimizado para México, pero estamos trabajando para expandirnos a otros países de habla hispana próximamente."
+  },
+  {
+    "id": 4,
+    "question": "¿Puedo emitir facturas con el SAT?",
+    "answer": "Esta funcionalidad estará disponible próximamente. Freelanzer se conectará con el SAT para generar facturas electrónicas de forma sencilla y sin complicaciones."
+  },
+  {
+    "id": 5,
+    "question": "¿Cuál será el costo del servicio?",
+    "answer": "Durante el acceso anticipado será gratuito. Luego ofreceremos planes mensuales y anuales con precios accesibles para freelancers."
+  }
+]

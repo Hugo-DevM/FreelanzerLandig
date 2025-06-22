@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+---
+import Timer from "../components/Timer";
+
+// Fecha fija para el lanzamiento: 7 de agosto de 2025 (un mes y medio desde el 22 de junio de 2025)
+const targetDate = new Date("2025-08-07T00:00:00.000Z");
+---
+
+<section
+  class="text-center font-rubik mr-2 ml-2 md:mr-0 md:ml-0 relative overflow-hidden"
+>
+  <!-- Logo1 como fondo decorativo -->
+  <div class="absolute inset-0 pointer-events-none">
+    <!-- Logo1 en esquina superior derecha -->
+    <div class="absolute top-8 right-8">
+      <img src="/images/logo1.png" alt="" class="w-24 h-24" />
+    </div>
+    <!-- Logo1 en esquina inferior izquierda -->
+    <div class="absolute bottom-8 left-8">
+      <img src="/images/logo1.png" alt="" class="w-20 h-20" />
+    </div>
+    <!-- Logo1 en el centro superior -->
+    <div class="absolute top-1/4 left-1/4">
+      <img src="/images/logo1.png" alt="" class="w-16 h-16" />
+    </div>
+    <!-- Logo1 en el centro inferior -->
+    <div class="absolute bottom-1/4 right-1/4">
+      <img src="/images/logo1.png" alt="" class="w-18 h-18" />
+    </div>
+  </div>
+
+  <div class="relative z-10">
+    <Timer client:load targetDate={targetDate.toISOString()} />
+
+    <div class="text-sm text-lime-400 mt-8 mb-16 uppercase tracking-wide">
+      FALTAN PARA EL LANZAMIENTO OFICIAL
+    </div>
+
+    <!-- marco del video -->
+    <div
+      class="relative mx-auto w-full max-w-3xl rounded-xl bg-[#262626] p-4 shadow-lg m-8"
+    >
+      <div class="absolute top-2 left-4 flex space-x-2 z-10">
+        <span class="w-3 h-3 rounded-full bg-red-500"></span>
+        <span class="w-3 h-3 rounded-full bg-yellow-400"></span>
+        <span class="w-3 h-3 rounded-full bg-green-500"></span>
+      </div>
+
+      <div class="aspect-video overflow-hidden rounded-md mt-4">
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/embed/lH9DhQv6nqo?autoplay=1&mute=1&loop=1&playlist=lH9DhQv6nqo"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+=======
+<section class="text-center">
+  <div class="flex justify-center gap-6 text-2xl font-mono">
+    <div>
+      <span class="text-black">212</span><div class="text-xs">DIAS</div>
+    </div>
+    <div>
+      <span class="text-black">13</span><div class="text-xs">HORAS</div>
+    </div>
+    <div>
+      <span class="text-black">14</span><div class="text-xs">MINUTOS</div>
+    </div>
+    <div>
+      <span class="text-black">9</span><div class="text-xs">SEGUNDOS</div>
+    </div>
+  </div>
+  <div class="text-sm text-gray-500 mt-8">
+    FALTAN PARA EL LANZAMIENTO OFICIAL
+  </div>
+  <div class="mt-8">
+    <video class="mx-auto w-full max-w-xl rounded-md" autoplay muted loop>
+      <source src="/wait-demo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p class="mt-2 text-gray-500">See how Wait works (3m)</p>
+>>>>>>> a28139a9bf635333ab452c96d031eb4fde075214
+  </div>
+</section>

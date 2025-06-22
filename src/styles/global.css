@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+@import "tailwindcss";
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(0.25rem);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-0.25rem);
+  }
+}
+
+@keyframes copySuccess {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.2) rotate(90deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(180deg);
+  }
+  75% {
+    transform: scale(1.15) rotate(270deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(34, 197, 94, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.6);
+  }
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 2s ease-out forwards;
+}
+
+.animate-copy-success {
+  animation: copySuccess 0.6s ease-in-out;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 1s ease-in-out infinite;
+}
+=======
+@import "tailwindcss";
+>>>>>>> a28139a9bf635333ab452c96d031eb4fde075214
