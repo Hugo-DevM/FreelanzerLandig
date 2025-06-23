@@ -1,25 +1,13 @@
-<<<<<<< HEAD
 {
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "./node_modules/.bin/astro dev",
-      "name": "Development server",
+      "type": "node",
       "request": "launch",
-      "type": "node-terminal"
+      "name": "Launch Astro",
+      "program": "${workspaceFolder}/node_modules/astro/astro.js",
+      "args": ["dev"],
+      "console": "integratedTerminal"
     }
   ]
 }
-=======
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "command": "./node_modules/.bin/astro dev",
-      "name": "Development server",
-      "request": "launch",
-      "type": "node-terminal"
-    }
-  ]
-}
->>>>>>> a28139a9bf635333ab452c96d031eb4fde075214
